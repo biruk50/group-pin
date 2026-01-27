@@ -1,0 +1,28 @@
+.groupsPage{display:flex;height:100vh;font-family:Inter,system-ui,Segoe UI,Roboto,Arial,sans-serif}
+.sidebar{width:320px;background:#f8f9fb;border-right:1px solid #e6eef8;display:flex;flex-direction:column}
+.sidebarHeader{display:flex;align-items:center;justify-content:space-between;padding:18px;border-bottom:1px solid #eef3fb}
+.brand{font-weight:800;color:#2b6cb0;font-size:18px}
+.homeBtn{background:#fff;border:1px solid #dbeafe;padding:6px 10px;border-radius:8px;cursor:pointer}
+.createBox{padding:12px}
+.createForm{display:flex;gap:8px}
+.createForm input{flex:1;padding:10px;border-radius:8px;border:1px solid #e6eef8}
+.createForm button{padding:10px;border-radius:8px;border:none;background:linear-gradient(90deg,#7b5cff,#5b4db6);color:#fff;cursor:pointer}
+.listWrap{flex:1;overflow:auto}
+.groupList{list-style:none;padding:0;margin:0}
+.groupItem{display:flex;gap:12px;align-items:center;padding:12px 16px;cursor:pointer;border-bottom:1px solid #f1f5f9}
+.groupItem:hover{background:#eef6ff}
+.groupItem.active{background:#e6f0ff;border-left:4px solid #5b4db6}
+.groupAvatar{width:44px;height:44px;border-radius:10px;background:#dbeafe;color:#1f2937;display:flex;align-items:center;justify-content:center;font-weight:700}
+.groupInfo{display:flex;flex-direction:column}
+.groupName{font-weight:700}
+.groupMeta{font-size:12px;color:#6b7280}
+.empty{padding:16px;color:#6b7280}
+.mainPanel{flex:1;display:flex;flex-direction:column}
+.panelHeader{padding:18px;border-bottom:1px solid #eef3fb;font-weight:700}
+.panelBody{padding:18px}
+.inviteBlock h4{margin:0 0 8px 0}
+.inviteForm{display:flex;gap:8px}
+.inviteForm input{flex:1;padding:10px;border-radius:8px;border:1px solid #e6eef8}
+.inviteForm button{padding:10px;border-radius:8px;border:none;background:#0b9aa0;color:#fff;cursor:pointer}
+.openMapBtn{padding:10px 14px;border-radius:8px;border:none;background:#0b9aa0;color:#fff;cursor:pointer}
+.please{padding:18px;color:#6b7280}
